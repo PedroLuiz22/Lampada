@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(48, 48, 48);
+    color: rgb(239, 235, 228);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+}
+
+section{
+    background-color: rgb(239,235,228);
+    color: rgb(48,48,48);
+    padding: 10px; 
+    border-radius: 20px;
+    width: 50%;
+    margin:50px auto auto;
+}
+section input{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(54, 114, 226);
+    color: rgb(239, 235, 228);
+    padding-inline: 20px;
+}
